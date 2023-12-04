@@ -8,8 +8,12 @@ resultados/*.txt
 # Only exists if Bazel was run
 /bazel-out
 logs/
+
 mongo/
-/postgres
+postgres/
+
+mongo-test/
+postgres-test/
 
 # dependencies
 /node_modules
